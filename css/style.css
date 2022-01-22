@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    
+    
+}
+ .section1{
+    
+
+    height: 100vh;
+    background-color: white;
+    background-image: linear-gradient(  100deg,  #fff  51%, rgb(245, 180, 0)  50%);
+
+}
+
+
+ #header{
+
+    height: 90px;
+ }
+
+/*logo styling*/
+
+.logo img{
+
+    margin-left:20px;
+    float:left;
+
+}
+/*styling burger*/
+
+    em{
+
+        font-style: italic;
+    }
+
+    /* styling  burger*/
+.logo p{
+
+    
+    padding: 20px 10px;
+    float: left;
+    margin-top: 10px;
+    font-size: x-large;
+    font-weight: bold;
+     
+}
+/*changing burger last bit to yellow*/
+span{
+    color: #F6B400;
+}
+
+.nav-menu ul {
+
+ margin-left:0;
+ display: flex;
+float: right;
+align-items: center;
+ 
+ 
+
+}
+/* styling the menu list*/
+
+.nav-menu li{
+    list-style-type:none;
+    padding:10px 25px;
+    margin-top:25px;
+    margin-right: 30px;
+    margin-left: 20px;
+    font-weight: 600;
+    float: left;
+    
+    
+}
+ /* changing link font color to black*/
+a:link{
+    color:black;
+    text-decoration: none;
+}
+/* adding the orange border under home menu*/
+
+.first{
+    border-bottom: 3px solid orangered;
+    padding-bottom: 8px;
+    
+}
+
+
+
+/* column 1 floats to the left*/
+    
+.column1{
+    
+    text-align: justify;
+    width: 50%;
+    float: left;
+    height:550px;
+}
+.column1 h3{
+    text-align:justify;
+    margin-top: 90px;
+    margin-left: 60px;
+    font-size: 32px
+    
+    
+}
+
+.column1 p{
+    
+    margin-top:30px;
+    margin-left: 60px;
+    font-size: 16px;
+    text-align:justify;
+ 
+}
+
+/*style later*/
+
+.column1 button{
+    background-color: #F6B400;
+    margin-top: 70px;
+    margin-left: 100px;
+    padding: 9px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 8px;
+    color:white;
+    text-align: left;
+    border: 0 solid #f6b400;
+}
+/*  clumns two floats to the right*/
+.column2{
+    
+    height: 550px;
+    width: 50%;
+    background-image: url(../images/[CITYPNG\ 1.png);
+    float: right;
+    background-position:left;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+/*dividing the section after header in two columns*/
+.section1-content{
+
+    column-count: 2;
+    
+    
+}
+
+
+    
+    
