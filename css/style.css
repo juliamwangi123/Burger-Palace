@@ -129,7 +129,7 @@ a:link{
     border-top-right-radius: 8px;
     color:white;
     text-align: left;
-    border: 0 solid #f6b400;
+    border: 0 solid #f6B400;
 }
 /*  clumns two floats to the right*/
 .column2{
@@ -152,6 +152,129 @@ a:link{
     
 }
 
+#section2{
 
+    background-color: #E1EBE6;
+    height: 100vh;
+    box-sizing: border-box;
+    max-height: 100vh;
+    
+
+}
+
+/* increase the size of icon*/
+
+.fa-customize{
+
+    font-size: 50px;
+    color:#F6B400;
+    margin-top: 20px;
     
     
+    
+}
+ .col-left{
+        width:20%;
+        border:1px solid maroon;
+        border-top-width: 2px;
+        border-bottom-width: 2px;
+        border-radius: 10px;
+        float: left;
+        text-align: center;
+        padding: 5px 5px;
+        height: 50vh;
+        word-wrap: break-word;
+        margin-left:2%;
+        margin-top: 250px;
+        margin-bottom: 100px;
+        min-height: 45vh;
+    }
+     
+ 
+
+ .col-right{
+    
+    width:20%;
+    border:1px solid maroon;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-radius: 10px;
+    float: left;
+    text-align: center;
+    padding: 5px 5px;
+    height: 50vh;
+    word-wrap: break-word;
+    margin-left:2%;
+    margin-top: 250px;
+    margin-bottom: 100px;
+    min-height: 45vh;
+ }
+
+
+
+ .col-center{
+     width: 30%;
+     border:1px solid maroon;
+     border-top-width: 2px;
+     border-bottom-width: 2px;
+     border-radius: 8px;
+     float: left;
+     text-align: center;
+     padding: 5px 5px;
+     height: 65vh;
+     word-wrap: break-word;
+     margin-left:10%;
+     margin-right:10%;
+     margin-top: 200px;
+     margin-bottom: 5px;
+     
+   
+ }
+
+ .headings{
+     
+    color: maroon;
+    
+ }
+
+.col-center p{
+     font-size: 16px;
+     margin-top: 45px;
+    columns: black;
+     word-wrap: break-word;
+ }
+
+ .col-center h3{
+
+    margin-top: 100px;
+    margin-bottom: 10px;
+
+ }
+
+ 
+
+.col-left p{
+
+    font-size: 16px;
+    color: black;
+    margin-top: 50px;
+    margin-bottom:30px;
+}
+
+.col-left h3{
+
+    margin-top: 50px;
+    
+}
+
+.col-right p{
+    font-size: 16px;
+    color: black;
+    margin-top: 50px;
+    margin-bottom:30px;
+}
+
+.col-right h3{
+
+    margin-top: 50px;
+}
