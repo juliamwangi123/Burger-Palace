@@ -476,11 +476,10 @@ a:link{
 
     .section4{
         
-       
+        background-color:  #E1EBE6;
          clear: both;
-         margin: 0 auto;
-         background-color: #E1EBE6;
-
+         height: 1000px;
+        
     }
 
     .overlapping-img{
@@ -542,7 +541,57 @@ a:link{
 .slider-dots{
     padding: 100px;
     margin-top: 100px;
-    
+    float: left;
     
 }
 
+.section5{
+    background-color:#F6B400 ;
+    height: 100vh;
+    
+   
+}
+.wording{
+  
+    margin-top: 230px;
+    margin-left: 50px;
+    float: left;
+    
+
+}
+.wording h3{
+ color: black;
+ font-size: 40px;
+ 
+ 
+
+
+}
+.mobile-images{
+    float: right;
+    margin-right: 50px;
+    margin-top: 150px;
+    text-align: center;
+    
+}
+
+.mobile-images img{
+ 
+padding: 20px;
+object-fit: contain;
+}
+
+.stores-icon{
+
+    
+    display: inline;
+
+}
+
+.wording img{
+  
+width: 200px;
+height: 200px;
+margin-bottom: 10px;
+object-fit: contain;
+}
