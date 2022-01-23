@@ -641,7 +641,7 @@ object-fit: contain;
 
 .subscription{
     float: right;
-    margin: 0 auto;
+    margin-bottom: 10px;
 }
 
 .subscription p{
@@ -655,10 +655,11 @@ object-fit: contain;
 }
 
 .footer-end  p{
-    padding: 0 auto;
+    padding: 10px;
 }
 
 .footer i{
+    width:20px;
+    float: left;
     
-    float: right;
 }
