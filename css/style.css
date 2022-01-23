@@ -85,6 +85,7 @@ a:link{
 .first{
     border-bottom: 3px solid orangered;
     padding-bottom: 8px;
+   
     
 }
 
@@ -297,6 +298,10 @@ a:link{
     
     .head-section h3{
         font-size: 32px;
+        margin-top:50px;
+        
+        
+        
     
     }
     
@@ -360,6 +365,7 @@ a:link{
         font-weight: 600;
         float: left;
         padding-left: 20px;
+        margin-top: 10px;
     }
     
     .fa-cart{
@@ -385,6 +391,32 @@ a:link{
     
     }
 
+    .fa-add{
+       float: left;
+        padding:10px;
+       
+
+    }
+    .fa-minus{
+        padding:10px;
+        float: left;
+        
+    }
+    .butt p{
+
+        text-align: center;
+        float: left;
+        padding-right:10px;
+    }
+
+   .butt{
+
+    background-color:#E1EBE6;
+    float: right;
+    border-radius:50px;
+    text-align: center;
+    
+   }
     .card3{
         background-color: white;
         border: 1px solid white;
