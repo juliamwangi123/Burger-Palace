@@ -285,6 +285,7 @@ a:link{
     margin: 0 auto;
     
     
+    
 }
 
 
@@ -303,10 +304,11 @@ a:link{
     
     .card{
         background-color: white;
-        border: 1px solid red;
+        border: 1px solid white;
         border-radius: 25px;
-        margin-left: 20px;
+        margin-left: 140px;
         margin-top: 35px;
+        margin-right:40px;
         padding:3px;
         box-shadow: 10px 10px 10px black;
         height: 500px;
@@ -368,4 +370,77 @@ a:link{
     }
     
     /* card two*/
-       
+    .card2{
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 25px;
+        margin-left: 40px;
+        margin-top: 35px;
+        margin-right:40px;
+        padding:3px;
+        box-shadow: 10px 10px 10px black;
+        height: 500px;
+        float:left;
+        width: 20%;
+    
+    }
+
+    .card3{
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 25px;
+        margin-left: 50px;
+        margin-top: 35px;
+        margin-right:50px;
+        padding:3px;
+        box-shadow: 10px 10px 10px black;
+        height: 500px;
+        float:left;
+        width: 20%;
+    
+    }
+
+    .card4{
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 25px;
+        margin-left: 140px;
+        margin-top: 35px;
+        margin-right:40px;
+        padding:3px;
+        box-shadow: 10px 10px 10px black;
+        height: 500px;
+        float:left;
+        width: 20%;
+        
+    
+    }
+
+    .card5{
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 25px;
+        margin-left: 40px;
+        margin-top: 35px;
+        margin-right:40px;
+        padding:3px;
+        box-shadow: 10px 10px 10px black;
+        height: 500px;
+        float:left;
+        width: 20%;
+    }
+
+    .card6{
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 25px;
+        margin-left: 50px;
+        margin-top: 35px;
+        margin-right:50px;
+        padding:3px;
+        box-shadow: 10px 10px 10px black;
+        height: 500px;
+        float:left;
+        width: 20%;
+    
+    }
