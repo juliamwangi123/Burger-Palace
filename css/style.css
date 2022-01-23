@@ -31,15 +31,12 @@
 }
 /*styling burger*/
 
-    em{
-
-        font-style: italic;
-    }
+    
 
     /* styling  burger*/
-.logo p{
+.logo em{
 
-    
+    font-style: italic;    
     padding: 20px 10px;
     float: left;
     margin-top: 10px;
@@ -476,3 +473,68 @@ a:link{
         width: 20%;
     
     }
+
+    .section4{
+        
+        height: 100vh;
+         clear: both;
+         margin: 0 auto;
+
+    }
+
+    .overlapping-img{
+        display: grid;
+        position: relative;
+        padding: 100px 30px;
+       
+        grid-template-columns: repeat(12, 1fr);
+        
+    }
+    .image-stuck-on-top{
+       
+         grid-column: 1  / spans  8;
+         grid-row: 1;
+         padding-top:20%;
+         z-index: 1;
+    
+    }
+    
+.overlapping-img img{
+    width: 500px;
+    height: 500px;
+     display: block;
+    
+}
+
+.image-stuck-on-bottom{
+    grid-column: 4 / -1;
+    grid-row:1;
+}
+.overlap{
+    padding: 100px 50px; 
+    width: 100%;
+    margin: 0 auto;
+    max-width: 900px;
+    float: right;
+    width: 60%;
+}
+
+.left-section h3{
+    padding: 100px 50px; 
+    width: 100%;
+    margin: 0 auto;
+    max-width: 900px;
+    float: left;
+    width: 30%;
+}
+
+.left-section h3{
+
+    
+    margin-top: 300px;
+    font-size: 32px;
+}
+.left-section p{
+
+
+}
