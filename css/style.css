@@ -599,11 +599,12 @@ object-fit: contain;
 .footer{
     height: 120px;
     background-color:  #E1EBE6;
+    display: inline;
 }
 
 .footer-details{
     height: 90%;
-    display: inline;
+    display: flex;
 }
 
 .footer img{
@@ -626,13 +627,14 @@ object-fit: contain;
 
 .footer-menu ul{
     list-style-type: none;
-    margin-left: 200px;
+    
+   
     
 }
 
 .footer-menu li{
     font-size: 16px;
-    margin-left: 100px;
+    
     width: 100px;
     padding: 2px;
     
@@ -640,26 +642,42 @@ object-fit: contain;
 }
 
 .subscription{
-    float: right;
+
     margin-bottom: 10px;
+    margin-left: 600px;
+    float: right;
+    padding: 10px;
 }
 
 .subscription p{
     font-size: 18px;
     font-weight:bold;
+    padding: 10px;
    
+   
+}
+
+.subscription input{
+    margin-top: 10px;
 }
 .footer-end{
     height:50px;
-    display: inline;
+    display:flex;
 }
 
 .footer-end  p{
     padding: 10px;
+    font-size: 12px;
 }
 
-.footer i{
-    width:20px;
-    float: left;
+.icon{
+    margin-left: 400px;
+    align-items: center;
+    padding: 10px;
     
+    
+}
+.sub{
+    background-color: yellow;
+    margin-left: -1px;
 }
