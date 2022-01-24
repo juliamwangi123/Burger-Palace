@@ -681,3 +681,11 @@ object-fit: contain;
     background-color: yellow;
     margin-left: -1px;
 }
+
+.name{
+
+    float: right;
+    color: black;
+    font-size: 11px;
+    margin-left: 400px;
+}
