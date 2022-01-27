@@ -601,8 +601,9 @@ margin: 10px;
     float: left;
 }
 
-.footer span{
+.footer-logo span{
     font-family: 'Oleo Script Swash Caps', cursive;
+    color: #F6B400;
 }
 
 .footer-logo h1{
