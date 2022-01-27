@@ -2,8 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Poppins;
-
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -36,7 +35,7 @@
 
 
 /* styling  burger*/
-.logo em {
+.logo h1 {
 
     font-style: italic;
     padding: 20px 10px;
@@ -44,6 +43,7 @@
     margin-top: 10px;
     font-size: x-large;
     font-weight: bold;
+    font-family:'Oleo Script Swash Caps', cursive;
 
 }
 
@@ -214,7 +214,6 @@ margin: 10px;
             height: 100px;
             width: 100px;
             object-fit: contain;
-            background-color: #F6B400;
             margin-left:70px;
             
         }
@@ -228,7 +227,6 @@ margin: 10px;
             height: 100px;
             width: 100px;
             object-fit: contain;
-            background-color:#F6B400;
             margin-left:70px;}
 
         #section2 h3{
@@ -353,7 +351,7 @@ margin: 10px;
 .fa-cart {
     float: right;
     background-color: #E1EBE6;
-    padding: 10px;
+    padding: 6px;
     border-radius: 50px;
 }
 
@@ -375,13 +373,13 @@ margin: 10px;
 
 .fa-add {
     float: left;
-    padding: 10px;
+    padding: 5px;
 
 
 }
 
 .fa-minus {
-    padding: 10px;
+    padding: 5px;
     float: left;
 
 }
@@ -556,12 +554,14 @@ margin: 10px;
     margin-top: 150px;
     text-align: center;
 
+
 }
 
 .mobile-images img {
 
     padding: 20px;
     object-fit: contain;
+    border-radius: 50px;
 }
 
 .stores-icon {
@@ -596,15 +596,20 @@ margin: 10px;
     float: left;
 }
 
-.footer-logo em {
+.footer span{
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.footer-logo h1{
 
 
 
     padding: 20px 10px;
     float: left;
     margin-top: 10px;
-    font-size: x-large;
     font-weight: bold;
+    font-family: 'Oleo Script Swash Caps', cursive;
+
 
 }
 
