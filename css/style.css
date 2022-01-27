@@ -1,123 +1,129 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Poppins;
-    
-    
+
+
 }
- .section1{
-    
+
+.section1 {
+
 
     height: 100vh;
     background-color: white;
-    background-image: linear-gradient(  100deg,  #fff  51%, rgb(245, 180, 0)  50%);
+    background-image: linear-gradient(100deg, #fff 51%, rgb(245, 180, 0) 50%);
 
 }
 
 
- #header{
+#header {
 
     height: 90px;
- }
+}
 
 /*logo styling*/
 
-.logo img{
+.logo img {
 
-    margin-left:20px;
-    float:left;
+    margin-left: 20px;
+    float: left;
 
 }
+
 /*styling burger*/
 
-    
 
-    /* styling  burger*/
-.logo em{
 
-    font-style: italic;    
+/* styling  burger*/
+.logo em {
+
+    font-style: italic;
     padding: 20px 10px;
     float: left;
     margin-top: 10px;
     font-size: x-large;
     font-weight: bold;
-     
+
 }
+
 /*changing burger last bit to yellow*/
-span{
+span {
     color: #F6B400;
 }
 
 .nav-menu ul {
 
- margin-left:0;
- display: flex;
-float: right;
-align-items: center;
- 
- 
+    margin-left: 0;
+    display: flex;
+    float: right;
+    align-items: center;
+
+
+
 
 }
+
 /* styling the menu list*/
 
-.nav-menu li{
-    list-style-type:none;
-    padding:10px 25px;
-    margin-top:25px;
+.nav-menu li {
+    list-style-type: none;
+    padding: 10px 25px;
+    margin-top: 25px;
     margin-right: 30px;
     margin-left: 20px;
     font-weight: 600;
     float: left;
-    
-    
+
+
 }
- /* changing link font color to black*/
-a:link{
-    color:black;
+
+/* changing link font color to black*/
+a:link {
+    color: black;
     text-decoration: none;
 }
+
 /* adding the orange border under home menu*/
 
-.first{
+.first {
     border-bottom: 3px solid orangered;
     padding-bottom: 8px;
-   
-    
+
+
 }
 
 
 
 /* column 1 floats to the left*/
-    
-.column1{
-    
+
+.column1 {
+
     text-align: justify;
     width: 50%;
     float: left;
-    height:550px;
+    height: 550px;
 }
-.column1 h3{
-    text-align:justify;
+
+.column1 h3 {
+    text-align: justify;
     margin-top: 90px;
     margin-left: 60px;
     font-size: 32px
-    
-    
 }
 
-.column1 p{
-    
-    margin-top:30px;
+.column1 p {
+
+    margin-top: 30px;
     margin-left: 60px;
     font-size: 16px;
-    text-align:justify;
- 
+    text-align: justify;
+
 }
 
 /*style later*/
 
-.column1 button{
+.column1 button {
     background-color: #F6B400;
     margin-top: 70px;
     margin-left: 100px;
@@ -125,393 +131,378 @@ a:link{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 8px;
-    color:white;
+    color: white;
     text-align: left;
     border: 0 solid #f6B400;
 }
+
 /*  clumns two floats to the right*/
-.column2{
-    
+.column2 {
+
     height: 550px;
     width: 50%;
     background-image: url(../images/[CITYPNG\ 1.png);
     float: right;
-    background-position:left;
+    background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
 
 
 }
+
 /*dividing the section after header in two columns*/
-.section1-content{
+.section1-content {
 
     column-count: 2;
-    
-    
+
+
 }
+
+/*section 2 starts here*/
+
+
+   
+
+/*section 2*/
 
 #section2{
 
-    background-color: #E1EBE6;
     height: 100vh;
-    box-sizing: border-box;
-    max-height: 100vh;
-    
-
-}
-
-/* increase the size of icon*/
-
-.fa-customize{
-
-    font-size: 50px;
-    color:#F6B400;
-    margin-top: 20px;
-    
-    
-    
-}
- .col-left{
-        width:20%;
-        border:1px solid maroon;
-        border-top-width: 2px;
-        border-bottom-width: 2px;
-        border-radius: 10px;
-        float: left;
-        text-align: center;
-        padding: 5px 5px;
-        height: 50vh;
-        word-wrap: break-word;
-        margin-left:2%;
-        margin-top: 250px;
-        margin-bottom: 100px;
-        min-height: 45vh;
-    }
-     
- 
-
- .col-right{
-    
-    width:20%;
-    border:1px solid maroon;
-    border-top-width: 2px;
-    border-bottom-width: 2px;
-    border-radius: 10px;
-    float: left;
-    text-align: center;
-    padding: 5px 5px;
-    height: 50vh;
-    word-wrap: break-word;
-    margin-left:2%;
-    margin-top: 250px;
-    margin-bottom: 100px;
-    min-height: 45vh;
- }
-
-
-
- .col-center{
-     width: 30%;
-     border:1px solid maroon;
-     border-top-width: 2px;
-     border-bottom-width: 2px;
-     border-radius: 8px;
-     float: left;
-     text-align: center;
-     padding: 5px 5px;
-     height: 65vh;
-     word-wrap: break-word;
-     margin-left:10%;
-     margin-right:10%;
-     margin-top: 200px;
-     margin-bottom: 5px;
-     
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   justify-content: space-around;
    
- }
+   
+}
 
- .headings{
-     
-    color: maroon;
+.box1{
+width:20%;
+border: 2px solid maroon;
+height: 300px;
+margin: 10px;
+
+
+
+}
+.box2{
+    width:25%;
+    border: 2px solid maroon;
+    height: 400px;
+    margin: 10px;
+    align-self: stretch;
+    margin-top: 150px;
     
- }
-
-.col-center p{
-     font-size: 16px;
-     margin-top: 45px;
-    columns: black;
-     word-wrap: break-word;
- }
-
- .col-center h3{
-
-    margin-top: 100px;
-    margin-bottom: 10px;
-
- }
-
- 
-
-.col-left p{
-
-    font-size: 16px;
-    color: black;
-    margin-top: 50px;
-    margin-bottom:-30px;
-}
-
-.col-left h3{
-
-    margin-top: 50px;
     
-}
+    
+    }
 
-.col-right p{
-    font-size: 16px;
-    color: black;
-    margin-top: 50px;
-    margin-bottom:-30px;
-}
+.box3{
+        width:20%;
+        border: 2px solid maroon;
+        height: 300px;
+        margin: 10px;
 
-.col-right h3{
+    
+    }
 
-    margin-top: 50px;
-}
+        .foodcover-img{
+            width :20%;
+
+        }
+        .foodcover-img img{
+            height: 100px;
+            width: 100px;
+            object-fit: contain;
+            background-color: #F6B400;
+            margin-left:70px;
+            
+        }
+
+
+        .soda-img{
+            width :20%;
+
+        }
+        .soda-img img{
+            height: 100px;
+            width: 100px;
+            object-fit: contain;
+            background-color:#F6B400;
+            margin-left:70px;}
+
+        #section2 h3{
+            color: maroon;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        #section2 p{
+            padding: 10px;
+            margin-top: 5px;
+            text-align: center;
+            
+            
+
+
+        }
+        .delivery-img{
+    
+            width :20%;
+
+        }
+
+        .fa-customize{
+
+            font-size: 50px;
+            color:#F6B400;
+            margin-top: 20px;
+            margin-left: 100px;
+            margin-top: 40px;
+        }
+            
 /*section 3 starts here*/
 
-.section3{
+.section3 {
     height: 100vh;
     margin: 0 auto;
-    
-    
-    
+
+
+
 }
 
 
-.head-section{
-    height:90px;
-    text-align:center;
-      
-    }
-    
-    .head-section h3{
-        font-size: 32px;
-        margin-top:50px;
-        
-        
-        
-    
-    }
-    
-    
-    
-    .card{
-        background-color: white;
-        border: 1px solid white;
-        border-radius: 25px;
-        margin-left: 140px;
-        margin-top: 35px;
-        margin-right:40px;
-        padding:3px;
-        box-shadow: 10px 10px 10px black;
-        height: 500px;
-        float:left;
-        width: 20%;
-    
-    }
-    
-    .card-image{
-        height: 200px;
-        width: 200px;
-        margin-left: 30px;
-        
-    
-    }
-    
-    .card-image img{
-        height: 100%;
-        width: 100%;
-        object-fit: contain;
-    
-        
-    }
-    
-    .card-content h3{
-    
-        color: maroon;
-        font-size:23px;
-        text-align: center;
-    
-    }
-    
-    .card-content p{
-    
-        margin-top:20px;
-        padding: 20px;
-        text-align: center;
-    
-    }
-    
-    .card-extras{
-    
-        height:20%;
-        padding-top: 50px;
-        padding-bottom:30px;
-    }
-    
-    .card-extras p{
-        font-weight: 600;
-        float: left;
-        padding-left: 20px;
-        margin-top: 10px;
-    }
-    
-    .fa-cart{
-        float: right;
-        background-color:#E1EBE6;
-        padding:10px;
-        border-radius:50px;
-    }
-    
-    /* card two*/
-    .card2{
-        background-color: white;
-        border: 1px solid white;
-        border-radius: 25px;
-        margin-left: 40px;
-        margin-top: 35px;
-        margin-right:40px;
-        padding:3px;
-        box-shadow: 10px 10px 10px black;
-        height: 500px;
-        float:left;
-        width: 20%;
-    
-    }
-
-    .fa-add{
-       float: left;
-        padding:10px;
-       
-
-    }
-    .fa-minus{
-        padding:10px;
-        float: left;
-        
-    }
-    .butt p{
-
-        text-align: center;
-        float: left;
-        padding-right:10px;
-    }
-
-   .butt{
-
-    background-color:#E1EBE6;
-    float: right;
-    border-radius:50px;
+.head-section {
+    height: 90px;
     text-align: center;
-    
-   }
-    .card3{
-        background-color: white;
-        border: 1px solid white;
-        border-radius: 25px;
-        margin-left: 50px;
-        margin-top: 35px;
-        margin-right:50px;
-        padding:3px;
-        box-shadow: 10px 10px 10px black;
-        height: 500px;
-        float:left;
-        width: 20%;
-    
-    }
 
-    .card4{
-        background-color: white;
-        border: 1px solid white;
-        border-radius: 25px;
-        margin-left: 140px;
-        margin-top: 35px;
-        margin-right:40px;
-        padding:3px;
-        box-shadow: 10px 10px 10px black;
-        height: 500px;
-        float:left;
-        width: 20%;
-        
-    
-    }
+}
 
-    .card5{
-        background-color: white;
-        border: 1px solid white;
-        border-radius: 25px;
-        margin-left: 40px;
-        margin-top: 35px;
-        margin-right:40px;
-        padding:3px;
-        box-shadow: 10px 10px 10px black;
-        height: 500px;
-        float:left;
-        width: 20%;
-    }
+.head-section h3 {
+    font-size: 32px;
+    margin-top: 50px;
 
-    .card6{
-        background-color: white;
-        border: 1px solid white;
-        border-radius: 25px;
-        margin-left: 50px;
-        margin-top: 35px;
-        margin-right:50px;
-        padding:3px;
-        box-shadow: 10px 10px 10px black;
-        height: 500px;
-        float:left;
-        width: 20%;
-    
-    }
 
-    .section4{
-        
-        background-color:  #E1EBE6;
-         clear: both;
-         height: 1000px;
-        
-    }
 
-    .overlapping-img{
-        display: grid;
-        position: relative;
-        padding: 100px 30px;
-       
-        grid-template-columns: repeat(12, 1fr);
-        
-    }
-    .image-stuck-on-top{
-       
-         grid-column: 1  / spans  8;
-         grid-row: 1;
-         padding-top:20%;
-         z-index: 1;
-    
-    }
-    
-.overlapping-img img{
+
+}
+
+
+
+.card {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-left: 140px;
+    margin-top: 35px;
+    margin-right: 40px;
+    padding: 3px;
+    box-shadow: 10px 10px 10px black;
+    height: 500px;
+    float: left;
+    width: 20%;
+
+}
+
+.card-image {
+    height: 200px;
+    width: 200px;
+    margin-left: 30px;
+
+
+}
+
+.card-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+
+}
+
+.card-content h3 {
+
+    color: maroon;
+    font-size: 23px;
+    text-align: center;
+
+}
+
+.card-content p {
+
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.card-extras {
+
+    height: 20%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.card-extras p {
+    font-weight: 600;
+    float: left;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.fa-cart {
+    float: right;
+    background-color: #E1EBE6;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+/* card two*/
+.card2 {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-top: 35px;
+    margin-right: 40px;
+    padding: 3px;
+    box-shadow: 10px 10px 10px black;
+    height: 500px;
+    float: left;
+    width: 20%;
+
+}
+
+.fa-add {
+    float: left;
+    padding: 10px;
+
+
+}
+
+.fa-minus {
+    padding: 10px;
+    float: left;
+
+}
+
+.butt p {
+
+    text-align: center;
+    float: left;
+    padding-right: 10px;
+}
+
+.butt {
+
+    background-color: #E1EBE6;
+    float: right;
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+.card3 {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-top: 35px;
+    margin-right: 50px;
+    padding: 3px;
+    box-shadow: 10px 10px 10px black;
+    height: 500px;
+    float: left;
+    width: 20%;
+
+}
+
+.card4 {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-left: 140px;
+    margin-top: 35px;
+    margin-right: 40px;
+    padding: 3px;
+    box-shadow: 10px 10px 10px black;
+    height: 500px;
+    float: left;
+    width: 20%;
+
+
+}
+
+.card5 {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-top: 35px;
+    margin-right: 40px;
+    padding: 3px;
+    box-shadow: 10px 10px 10px black;
+    height: 500px;
+    float: left;
+    width: 20%;
+}
+
+.card6 {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-top: 35px;
+    margin-right: 50px;
+    padding: 3px;
+    box-shadow: 10px 10px 10px black;
+    height: 500px;
+    float: left;
+    width: 20%;
+
+}
+
+.section4 {
+
+    background-color: #E1EBE6;
+    clear: both;
+    height: 1000px;
+
+}
+
+.overlapping-img {
+    display: grid;
+    position: relative;
+    padding: 100px 30px;
+
+    grid-template-columns: repeat(12, 1fr);
+
+}
+
+.image-stuck-on-top {
+
+    grid-column: 1 / spans 8;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index: 1;
+
+}
+
+.overlapping-img img {
     width: 500px;
     height: 500px;
-     display: block;
-    
+    display: block;
+
 }
 
-.image-stuck-on-bottom{
+.image-stuck-on-bottom {
     grid-column: 4 / -1;
-    grid-row:1;
+    grid-row: 1;
 }
-.overlap{
-    padding: 100px 50px; 
+
+.overlap {
+    padding: 100px 50px;
     width: 100%;
     margin: 0 auto;
     max-width: 900px;
@@ -519,8 +510,8 @@ a:link{
     width: 60%;
 }
 
-.left-section{
-    padding: 100px 50px; 
+.left-section {
+    padding: 100px 50px;
     width: 100%;
     margin: 0 auto;
     max-width: 900px;
@@ -528,120 +519,123 @@ a:link{
     width: 30%;
 }
 
-.left-section h3{
+.left-section h3 {
     margin-top: 300px;
     font-size: 32px;
 }
 
-.taste{
-   margin-top: 50px;
-    
+.taste {
+    margin-top: 50px;
+
 }
 
-.slider-dots{
+.slider-dots {
     padding: 100px;
     margin-top: 100px;
     float: left;
-    
+
 }
 
-.section5{
-    background-color:#F6B400 ;
+.section5 {
+    background-color: #F6B400;
     height: 100vh;
-    
-   
+
+
 }
-.wording{
-  
+
+.wording {
+
     margin-top: 230px;
     margin-left: 50px;
     float: left;
-    
-
-}
-.wording h3{
- color: black;
- font-size: 40px;
- 
- 
 
 
 }
-.mobile-images{
+
+.wording h3 {
+    color: black;
+    font-size: 40px;
+
+
+
+
+}
+
+.mobile-images {
     float: right;
     margin-right: 50px;
     margin-top: 150px;
     text-align: center;
-    
+
 }
 
-.mobile-images img{
- 
-padding: 20px;
-object-fit: contain;
+.mobile-images img {
+
+    padding: 20px;
+    object-fit: contain;
 }
 
-.stores-icon{
+.stores-icon {
 
-    
+
     display: inline;
 
 }
 
-.wording img{
-  
-width: 200px;
-height: 200px;
-margin-bottom: 10px;
-object-fit: contain;
+.wording img {
+
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    object-fit: contain;
 }
 
-.footer{
+.footer {
     height: 120px;
-    background-color:  #E1EBE6;
+    background-color: #E1EBE6;
     display: inline;
 }
 
-.footer-details{
+.footer-details {
     height: 90%;
     display: flex;
 }
 
-.footer img{
+.footer img {
 
-    margin-left:20px;
-    float:left;
+    margin-left: 20px;
+    float: left;
 }
 
-.footer-logo em{
+.footer-logo em {
 
 
-       
-        padding: 20px 10px;
-        float: left;
-        margin-top: 10px;
-        font-size: x-large;
-        font-weight: bold;
-        
+
+    padding: 20px 10px;
+    float: left;
+    margin-top: 10px;
+    font-size: x-large;
+    font-weight: bold;
+
 }
 
-.footer-menu ul{
+.footer-menu ul {
     list-style-type: none;
-    
-   
-    
+
+
+
 }
 
-.footer-menu li{
+.footer-menu li {
     font-size: 16px;
-    
+
     width: 100px;
     padding: 2px;
-    
+
 
 }
 
-.subscription{
+.subscription {
 
     margin-bottom: 10px;
     margin-left: 600px;
@@ -649,40 +643,42 @@ object-fit: contain;
     padding: 10px;
 }
 
-.subscription p{
+.subscription p {
     font-size: 18px;
-    font-weight:bold;
+    font-weight: bold;
     padding: 10px;
-   
-   
+
+
 }
 
-.subscription input{
+.subscription input {
     margin-top: 10px;
 }
-.footer-end{
-    height:50px;
-    display:flex;
+
+.footer-end {
+    height: 50px;
+    display: flex;
 }
 
-.footer-end  p{
+.footer-end p {
     padding: 10px;
     font-size: 12px;
 }
 
-.icon{
+.icon {
     margin-left: 400px;
     align-items: center;
     padding: 10px;
-    
-    
+
+
 }
-.sub{
+
+.sub {
     background-color: yellow;
     margin-left: -1px;
 }
 
-.name{
+.name {
 
     float: right;
     color: black;
