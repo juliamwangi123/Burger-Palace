@@ -150,13 +150,8 @@ a:link {
 
 }
 
-/*dividing the section after header in two columns*/
-.section1-content {
-
-    column-count: 2;
 
 
-}
 
 /*section 2 starts here*/
 
@@ -196,6 +191,10 @@ margin: 10px;
     
     
     
+    }
+
+    .box2 h3{
+        margin-top: 40px;
     }
 
 .box3{
@@ -258,7 +257,7 @@ margin: 10px;
             font-size: 50px;
             color:#F6B400;
             margin-top: 20px;
-            margin-left: 100px;
+            margin-left: 120px;
             margin-top: 40px;
         }
             
@@ -463,69 +462,55 @@ margin: 10px;
 
 }
 
-.section4 {
-
-    background-color: #E1EBE6;
-    clear: both;
-    height: 1000px;
-
-}
-
-.overlapping-img {
-    display: grid;
+#section4{
+    height: 100vh;
+    display: flex;
     position: relative;
-    padding: 100px 30px;
-
-    grid-template-columns: repeat(12, 1fr);
-
-}
-
-.image-stuck-on-top {
-
-    grid-column: 1 / spans 8;
-    grid-row: 1;
-    padding-top: 20%;
-    z-index: 1;
+    flex-direction: row;
+    align-content: center;
+    clear: both;
 
 }
 
-.overlapping-img img {
-    width: 500px;
+.col-left{
+    width: 50%;
+   
+}
+
+.col-right{
+    
+    width:50%;
+    
+}
+
+.col-right  img{
     height: 500px;
-    display: block;
+    width: 500px;
+    object-fit: contain;
+    position: absolute;
+   
 
 }
 
-.image-stuck-on-bottom {
-    grid-column: 4 / -1;
-    grid-row: 1;
+.decker-one{
+    right: 100px;
+    top:50px;
 }
 
-.overlap {
-    padding: 100px 50px;
-    width: 100%;
-    margin: 0 auto;
-    max-width: 900px;
-    float: right;
-    width: 60%;
-}
+.decker-two{
 
-.left-section {
-    padding: 100px 50px;
-    width: 100%;
-    margin: 0 auto;
-    max-width: 900px;
-    float: left;
-    width: 30%;
+    left:600px;
+    bottom:20px;
 }
-
-.left-section h3 {
+.col-left h3 {
     margin-top: 300px;
     font-size: 32px;
+    margin-left: 50px;
 }
 
 .taste {
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
 
 }
 
@@ -535,6 +520,10 @@ margin: 10px;
     float: left;
 
 }
+
+
+
+
 
 .section5 {
     background-color: #F6B400;
